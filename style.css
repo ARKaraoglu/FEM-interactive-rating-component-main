@@ -1,7 +1,10 @@
 html {
     font-size: 0.9375rem; /* 15px */
-    font-family
+    font-family: "Overpass";
 }
 .sr-only {
+    content-visibility: hidden;
+}
+.thank-you-container {
     content-visibility: hidden;
 }
