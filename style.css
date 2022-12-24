@@ -3,6 +3,9 @@ html {
     font-family: "Overpass";
     background-color: hsl(216, 12%, 8%); /* Very Dark Blue */
 }
+body {
+    max-height: 100%;
+}
 .sr-only {
     content-visibility: hidden;
 }
@@ -11,10 +14,12 @@ html {
 }
 
 .rating-container {
+    padding: 2em;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2em;
+    /* gap: 1em; */
     background-color: hsl(213, 19%, 18%); /* Dark Blue */
     max-width: 40rem;
     align-content: center;
+    margin-inline: auto;
 }
