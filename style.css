@@ -1,10 +1,20 @@
 html {
     font-size: 0.9375rem; /* 15px */
     font-family: "Overpass";
+    background-color: hsl(216, 12%, 8%); /* Very Dark Blue */
 }
 .sr-only {
     content-visibility: hidden;
 }
 .thank-you-container {
     content-visibility: hidden;
+}
+
+.rating-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    background-color: hsl(213, 19%, 18%); /* Dark Blue */
+    max-width: 40rem;
+    align-content: center;
 }
