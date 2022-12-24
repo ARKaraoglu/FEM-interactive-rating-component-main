@@ -1,0 +1,6 @@
+html {
+    font-size: 0.9375rem; /* 15px */
+}
+.sr-only {
+    content-visibility: hidden;
+}
