@@ -2,9 +2,7 @@ html {
     font-size: 0.9375rem; /* 15px */
     font-family: "Overpass";
     background-color: hsl(216, 12%, 8%); /* Very Dark Blue */
-}
-body {
-    max-height: 100%;
+    min-height: 100%;
 }
 .sr-only {
     content-visibility: hidden;
@@ -18,8 +16,13 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     /* gap: 1em; */
-    background-color: hsl(213, 19%, 18%); /* Dark Blue */
+    background-color: hsl(213, 19%, 13%); /* Little More Than Dark Blue */
     max-width: 40rem;
-    align-content: center;
+    /* align-content: center; */
     margin-inline: auto;
+}
+
+.star-icon {
+    padding: 0.5em;
+    background-color: hsl(213, 19%, 18%); /* Dark Blue */
 }
