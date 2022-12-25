@@ -16,7 +16,7 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Overpass"
         />
-
+        <script defer src="script.js"></script>
         <title>Frontend Mentor | Interactive rating component</title>
 
         <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -32,54 +32,55 @@
     </head>
     <body>
         <main>
-            <!-- Form Yap -->
             <h1 class="sr-only">Interactive Rating Component Main</h1>
-            <!-- Rating state start -->
-            <div class="rating-container">
-                <img
-                    class="star-icon"
-                    src="images/icon-star.svg"
-                    alt="Star Icon for the Interactive Rating Component"
-                />
-                <div class="title">How did we do?</div>
-                <div class="main-content">
-                    Please let us know how we did with your support request. All
-                    feedback is appreciated to help us improve our offering!
+            <form id="form" action="/">
+                <!-- Rating state start -->
+                <div class="rating-container">
+                    <img
+                        class="star-icon"
+                        src="images/icon-star.svg"
+                        alt="Star Icon for the Interactive Rating Component"
+                    />
+                    <div class="title">How did we do?</div>
+                    <div class="main-content">
+                        Please let us know how we did with your support request.
+                        All feedback is appreciated to help us improve our
+                        offering!
+                    </div>
+                    <div class="rating-group">
+                        <label class="rating-btn rating-1">1</label>
+                        <label class="rating-btn rating-2">2</label>
+                        <label class="rating-btn rating-3">3</label>
+                        <label class="rating-btn rating-4">4</label>
+                        <label class="rating-btn rating-5">5</label>
+                    </div>
+                    <div>
+                        <button class="submit-btn" type="submit">Submit</button>
+                    </div>
                 </div>
-                <div class="rating-group">
-                    <button class="rating-1">1</button>
-                    <button class="rating-2">2</button>
-                    <button class="rating-3">3</button>
-                    <button class="rating-4">4</button>
-                    <button class="rating-5">5</button>
+
+                <!-- Rating state end -->
+
+                <!-- Thank you state start -->
+                <div class="thank-you-container">
+                    You selected
+                    <!-- Add rating here -->
+                    out of 5 Thank you! We appreciate you taking the time to
+                    give a rating. If you ever need more support, don't hesitate
+                    to get in touch!
                 </div>
-                <div>
-                    <button class="submit">Submit</button>
+
+                <!-- Thank you state end -->
+
+                <div class="attribution">
+                    Challenge by
+                    <a
+                        href="https://www.frontendmentor.io?ref=challenge"
+                        target="_blank"
+                        >Frontend Mentor</a
+                    >. Coded by <a href="#">Your Name Here</a>.
                 </div>
-            </div>
-
-            <!-- Rating state end -->
-
-            <!-- Thank you state start -->
-            <div class="thank-you-container">
-                You selected
-                <!-- Add rating here -->
-                out of 5 Thank you! We appreciate you taking the time to give a
-                rating. If you ever need more support, don't hesitate to get in
-                touch!
-            </div>
-
-            <!-- Thank you state end -->
-
-            <div class="attribution">
-                Challenge by
-                <a
-                    href="https://www.frontendmentor.io?ref=challenge"
-                    target="_blank"
-                    >Frontend Mentor</a
-                >. Coded by <a href="#">Your Name Here</a>.
-            </div>
-            <script src="script.js"></script>
+            </form>
         </main>
     </body>
 </html>
