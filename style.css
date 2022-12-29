@@ -12,16 +12,22 @@ body {
     content-visibility: hidden;
 }
 
-/* RATING STATE START */
+.content-hidden {
+    content-visibility: hidden;
+}
 
-.rating-container {
+.container {
     padding: 2em;
-    display: grid;
-    grid-template-columns: 1fr;
     background-color: hsl(213, 19%, 13%); /* Little More Than Dark Blue */
     max-width: 23rem;
     margin-inline: auto;
     border-radius: 2em;
+}
+/* RATING STATE START */
+
+.rating-container {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .star-icon {
@@ -124,5 +130,43 @@ body {
 
 /* THANK YOU STATE START */
 .thank-you-container {
-    content-visibility: hidden;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.rating-showcase {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 0.25em 1em;
+    margin-inline: auto;
+    border-radius: 1em;
+}
+
+.thank-you-text {
+    margin-bottom: 0;
+    color: white;
+    word-spacing: 0.5rem;
+}
+
+.thank-you-main-text {
+    color: hsl(216, 12%, 54%);
+}
+/* THANK YOU STATE END */
+
+/* FOOTER START */
+
+.attribution {
+    padding-top: 2em;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+.attribution a {
+    color: hsl(25, 97%, 53%);
+    transition: 0.5s;
+}
+.attribution a:hover {
+    color: red;
 }
