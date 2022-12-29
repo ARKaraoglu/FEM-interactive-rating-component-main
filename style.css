@@ -1,6 +1,6 @@
 body {
     font-size: 0.9375rem; /* 15px */
-    font-family: "Overpass";
+    font-family: "Overpass", sans-serif;
     background-color: hsl(216, 12%, 8%); /* Very Dark Blue */
     min-height: 100vh;
     margin: 0;
@@ -20,6 +20,7 @@ body {
     padding: 2em;
     background-color: hsl(213, 19%, 13%); /* Little More Than Dark Blue */
     max-width: 23rem;
+    min-height: 18rem;
     margin-inline: auto;
     border-radius: 2em;
 }
@@ -99,6 +100,7 @@ body {
     font-size: 1rem; /* 15px */
     letter-spacing: 0.1rem;
     color: white;
+    margin-top: 1em;
     padding: 1em;
     border: none;
     border-radius: 1em;
@@ -119,6 +121,7 @@ body {
     letter-spacing: 0.1rem;
     color: white;
     padding: 1em;
+    margin-top: 1em;
     border: none;
     border-radius: 1em;
     transition: 0.3s;
@@ -135,7 +138,8 @@ body {
     text-align: center;
     margin-inline: auto;
 }
-
+/* .thank-you-image-container {
+} */
 .rating-showcase {
     color: hsl(25, 97%, 53%);
     background-color: hsl(213, 19%, 18%);
@@ -152,6 +156,7 @@ body {
 
 .thank-you-main-text {
     color: hsl(216, 12%, 54%);
+    margin-bottom: 0.5em;
 }
 /* THANK YOU STATE END */
 
